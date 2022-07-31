@@ -23,7 +23,7 @@ article p{
 color: burlywood;
 }
 .container_main{
-    
+    flex-direction:column;
     display: flex;
     
 }
