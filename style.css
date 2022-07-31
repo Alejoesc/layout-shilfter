@@ -1,35 +1,30 @@
 .container_header{
 display: flex;
 justify-content: space-evenly;
-
 }
 article p{
     font-size: 1.50rem;
 }
 .navbar{
-
 }
 .navbar ul{
     list-style: none;
-    
 }
 .navbar li{
-    
     display: inline;
-    padding: 0 2px;
-    
+    padding: 0 2px; 
 }
 .navbar li:hover{
 color: burlywood;
 }
 .container_main{
-    flex-direction:column;
+    flex-flow: row wrap;
     display: flex;
-    
-}
-.block1{
     flex-direction: column;
-    display: flex;
+}
+
+.block1{
+    
 }
 .container-card{
 background-color: grey;
@@ -39,35 +34,26 @@ border-radius: 1rem;
 
 
 }
+
 .block1 figure img{
-   
     min-width: 200px;
     width: 200px;
-    
     height: 200px;
     object-fit: cover;
    }
-.block2{
+.block2 p{
     border: 1px solid black;
-    margin: 10px;
+    padding: 35px; 
 }
-.block3{
-    margin: 10px;
-    border: 1px solid black;
-}
+
 .container_footer{
     display: flex;
     justify-content: center;
      min-width: 304px;
-    
 }
 
 .container_footer figure img{
     width: 40px;
-   
-    margin: 0 10px;
-    
-    
-    
+    margin: 0 10px; 
 }
 
