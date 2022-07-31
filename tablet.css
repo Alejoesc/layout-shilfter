@@ -1,10 +1,26 @@
 .container_main{
     
+    flex-flow: wrap row;
     
 }
 
+
 .block1{
     max-width: 350px;
-  
-  
+    
+}
+.two{
+    width: 85vw;
+}
+.three{
+    width: 85vw;
+}
+.block2{
+    width: 50%;
+    height: 250px;
+    
+}
+
+.container_footer figure img{
+    margin: 0 90px;
 }
