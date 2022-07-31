@@ -1,0 +1,26 @@
+body{
+    width: 1024px;
+    margin: 0 auto;
+}
+.container_header{
+    font-size: 1.50rem;
+}
+
+.block1{
+    max-width: 350px;
+    flex-direction: column;
+}
+.container_main{
+    
+}
+.block2{
+width: 50%;
+
+}
+.block3{
+    width: 50%;
+    
+}
+.container_footer figure img{
+    margin: 0 100px;
+}
