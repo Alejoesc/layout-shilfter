@@ -25,7 +25,7 @@ color: burlywood;
 .container_main{
     
     display: flex;
-    flex-direction: column;
+    
 }
 .block1{
     flex-direction: column;
