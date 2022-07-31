@@ -6,21 +6,32 @@ body{
     font-size: 1.50rem;
 }
 
-.block1{
-    max-width: 350px;
-    flex-direction: column;
-}
+
 .container_main{
     
+    justify-content: space-around;
+   
 }
-.block2{
-width: 50%;
-
+.container-card{
+   
+    margin: 10px auto;
 }
-.block3{
-    width: 50%;
+.two{
+    width: 90vw;
+    max-width: 1024px;
+    
+    
+    
     
 }
+.three{
+    
+    width: 90vw;
+    max-width: 1024px;
+   
+}
+
+
 .container_footer figure img{
     margin: 0 100px;
 }
